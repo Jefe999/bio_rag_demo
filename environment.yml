@@ -1,0 +1,20 @@
+# environment_cpu.yml
+name: bio-rag-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - pyarrow
+  - duckdb
+  - sentence-transformers
+  - chromadb
+  - langchain
+  - mlflow
+  - fastapi
+  - uvicorn
+  - jupyterlab
+  - pip
+  - pip:
+      - pinecone-client
+      - python-dotenv
