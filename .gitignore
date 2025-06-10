@@ -1,0 +1,4 @@
+# large / generated files
+data_raw/
+data_parquet/
+mlruns/
